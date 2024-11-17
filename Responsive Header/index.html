@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="./images/apple-brands-solid.svg" alt="" class="logo_icon" />
+      </div>
+      <div class="menus">
+        <nav>
+          <ul>
+            <a href=""><li>Home</li></a>
+            <a href=""><li>About US</li></a>
+            <a href=""><li>Contact US</li></a>
+            <a href=""><li>who We are</li></a>
+            <a href=""><li>Our Portfolio</li></a>
+          </ul>
+        </nav>
+      </div>
+      <img
+        src="./images/bars-solid.svg"
+        alt="Menus"
+        class="source_icons show-bars"
+        data-open-menu-btn
+      />
+    </div>
+    <!-- mobile menu starts -->
+    <div class="mobile-menu" data-mobile-menu>
+      <div class="head">
+        <img src="./images/apple-brands-solid.svg" alt="" class="mobile-logo" />
+
+        <img
+          src="./images/xmark-solid.svg"
+          alt=""
+          class="source_icons close"
+          data-close-menu-btn
+        />
+      </div>
+
+      <nav>
+        <ul>
+          <a href="" class="ulactive"><li>Home</li></a>
+          <a href=""><li>About US</li></a>
+          <a href=""><li>Contact US</li></a>
+          <a href=""><li>who We are</li></a>
+          <a href=""><li>Our Portfolio</li></a>
+        </ul>
+      </nav>
+    </div>
+    <!-- mobile menu ends -->
+    <!-- overlay -->
+    <div class="overlay" data-overlay></div>
+  </body>
+  <script src="./main.js"></script>
+</html>
